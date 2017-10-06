@@ -3,40 +3,25 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
     </div>
-
     <div class="row">
-        <div class="col-md-4">
-            <h2>Getting started</h2>
-            <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
-            </p>
-            <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
-            </p>
+         <div class="col-md-10">
+          <h2><asp:HyperLink ID="HyperLink1" href="https://www.surveymonkey.co.uk/mp/take-a-tour/?ut_source=header " runat="server">Ask more, know more, do more</asp:HyperLink></h2>
+            <h3 id="company" runat="server">HTKN Company sells cosmetics products. With the main goal to make women become beauty, we provide the best quality of products made in nature. </h3>
+             <p>
+                We are going to release the new 2 in 1 product of hand sanitizer 
+                 combining the lotion and clean.Clean hands can stop the spread of germs
+                  and even the dreaded flu. Nothing beats a good wash with soap and water, 
+                 but hand sanitizers are great in a pinch. The product is perfect for traveling or home use,
+                  but many offices and hospitals also keep them handy so employees can get their hands clean
+                  and kill bacteria that can cause illnesses. When searching for hand sanitizers, 
+                 buyers should consider only the best brands to ensure the cleanest hands possible and
+                  make their skin softly.Thus, taking survey is to help define customer's desire.
+            </p>    
         </div>
-        <div class="col-md-4">
-            <h2>Get more libraries</h2>
-            <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-            </p>
-            <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Web Hosting</h2>
-            <p>
-                You can easily find a web hosting company that offers the right mix of features and price for your applications.
-            </p>
-            <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
-            </p>
-        </div>
-    </div>
-
+        <div>
+            <asp:Image ID="Image1" runat="server" />
+         </div>
+        <a runat="server" href="https://www.surveymonkey.co.uk/mp/take-a-tour/?ut_source=header "><img src="Image/surveyimage.PNG" /></a>
+         </div>
 </asp:Content>

@@ -841,7 +841,11 @@ pre code {
 .col-md-7,
 .col-md-8,
 .col-md-9,
-.col-md-10,
+.col-md-10{
+    -webkit-column-count:auto;
+    -moz-column-count:auto;
+    column-count:auto
+}
 .col-md-11,
 .col-md-12,
 .col-lg-1,
@@ -4928,13 +4932,18 @@ a.list-group-item.active > .badge,
 }
 
 .jumbotron {
-  padding: 30px;
-  margin-bottom: 30px;
-  font-size: 21px;
-  font-weight: 200;
-  line-height: 2.1428571435;
-  color: inherit;
-  background-color: #eeeeee;
+    padding: 30px;
+    margin-bottom: 30px;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 2.1428571435;
+    color: inherit;
+    background-color: #eeeeee;
+    background-image: url('../Image/banner_beauty1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    opacity: 0.6;
 }
 
 .jumbotron h1 {
@@ -6532,6 +6541,10 @@ td.hidden-xs {
   display: table-cell !important;
 }
 
+#company {
+    -webkit-column-span:all;
+    column-span:all;
+}
 @media (max-width: 767px) {
   .hidden-xs {
     display: none !important;
