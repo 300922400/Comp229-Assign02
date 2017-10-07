@@ -2,6 +2,11 @@
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: #66AFE9;
+    background-image: url('../Image/38946170-Makeup-brushes-and-crushed-eyeshadows-on-dark-background-Stock-Photo.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color:rgba(66,77,69,0.7);
 }
 
 /* Wrapping element */

@@ -103,31 +103,13 @@ namespace Comp229_Assign02 {
         protected global::System.Web.UI.HtmlControls.HtmlSelect Scent;
         
         /// <summary>
-        /// CheckBoxList1 control.
+        /// CheckBoxList_Using control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList CheckBoxList1;
-        
-        /// <summary>
-        /// Yes control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox Yes;
-        
-        /// <summary>
-        /// No control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox No;
+        protected global::System.Web.UI.WebControls.CheckBoxList CheckBoxList_Using;
         
         /// <summary>
         /// Submit control.

@@ -7,8 +7,8 @@
                     <td style="width: 289px">Enter Your Name</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
-                    <td rowspan="12" style="width: 167px">
-                        <asp:ValidationSummary ID="ValidationSummary1" runat="server" />
+                    <td rowspan="10" style="width: 167px">
+                        <asp:ValidationSummary ID="ValidationSummary1" runat="server" ForeColor="Red" />
                     </td>
                 </tr>
                 <tr>
@@ -33,7 +33,7 @@
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="Text_Mail" ErrorMessage="Please Enter Email" ForeColor="Red">*</asp:RequiredFieldValidator>
                     </td>
                     <td>
-                        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="Text_Mail" ErrorMessage="Email is not valid" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*">Email is not valid</asp:RegularExpressionValidator>
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="Text_Mail" ErrorMessage="Email is not valid" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ForeColor="Red">Email is not valid</asp:RegularExpressionValidator>
                     </td>
                 </tr>
                 <tr>
@@ -49,7 +49,7 @@
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="Text_Age" ErrorMessage="Please enter age" ForeColor="Red">*</asp:RequiredFieldValidator>
                     </td>
                     <td>
-                        <asp:RangeValidator ID="Range_age" runat="server" ControlToValidate="Text_Age" ErrorMessage="Age must be between 13 and 90" MaximumValue="90" MinimumValue="13">Age must be betwwen 13 and 90</asp:RangeValidator>
+                        <asp:RangeValidator ID="Range_age" runat="server" ControlToValidate="Text_Age" ErrorMessage="Age must be between 13 and 90" MaximumValue="90" MinimumValue="13" ForeColor="Red">Age must be betwwen 13 and 90</asp:RangeValidator>
                     </td>
                 </tr>
                 <tr>
@@ -79,7 +79,7 @@
                 </tr>
                 <tr>
                     <td style="width: 289px">
-                        <asp:CheckBoxList ID="CheckBoxList1" runat="server">
+                        <asp:CheckBoxList ID="CheckBoxList_Using" runat="server">
                             <asp:ListItem>More than once per day</asp:ListItem>
                             <asp:ListItem>At least once per day</asp:ListItem>
                             <asp:ListItem>At leat once per week</asp:ListItem>
@@ -91,23 +91,8 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td style="width: 289px">Do you like to try our new product as sample?</td>
-                    <td>
-                        &nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
                     <td style="width: 289px">
-            <asp:CheckBox ID="Yes" runat="server"  Text="Yes"/> 
-            &nbsp;<asp:CheckBox ID="No" runat="server"  Text="No"/> 
-                    </td>
-                    <td>
-                        &nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td style="width: 289px">
-                        <asp:Button ID="Submit" runat="server" Text="Submit" />
+                        <asp:Button ID="Submit" runat="server" Text="Submit"  OnClick="Submit_Click" />
                     </td>
                     <td>
                         &nbsp;</td>
@@ -117,5 +102,6 @@
             </table>
         </fieldset>
  </div>
+     
 
 </asp:Content>
