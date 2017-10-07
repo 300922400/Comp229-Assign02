@@ -21,12 +21,12 @@ namespace Comp229_Assign02
 
         protected void Submit_Click(object sender, EventArgs e)
         {
-            String[] a = { Text_name.Text, Text_Mail.Text, Text_Age.Text };
-            for (int i = 0; i < a.Length; i++)
-            {
-                Response.Redirect("ThankYou.aspx?" + a[i]);
-            }
-            //Response.Redirect("ThankYou.aspx?text=" + Text_name.Text);
+            //String[] a = { Text_name.Text, Text_Mail.Text, Text_Age.Text };
+            //for (int i = 0; i < a.Length; i++)
+            //{
+            //    Response.Redirect("ThankYou.aspx?" + a[i]);
+            //}
+            Response.Redirect("ThankYou.aspx?" + Text_name.Text +Text_Mail.Text + Text_Age.Text);
             //Response.Redirect("ThankYou.aspx?text=" + Text_Mail.Text);
             //Response.Redirect("ThankYou.aspx?text=" + Text_Age.Text);
             

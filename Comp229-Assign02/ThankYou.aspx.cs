@@ -11,11 +11,12 @@ namespace Comp229_Assign02
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string[] a = { Label1.Text, Label2.Text, Label3.Text };
-            for (int i = 0; i < a.Length; i++)
-            {
-                a[i] = Request.QueryString.ToString();
-            }
+            Label1.Text = Request.QueryString.ToString();
+            //string[] a = { Label1.Text, Label2.Text, Label3.Text };
+            //for (int i = 0; i < a.Length; i++)
+            //{
+            //    a[i] = Request.QueryString.ToString();
+            //}
             //Label1.Text = Session["name"].ToString();
             //Session.Remove("name");
             //Label2.Text = Session["name"].ToString();

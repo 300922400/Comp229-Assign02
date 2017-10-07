@@ -170,6 +170,9 @@
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
     <Content Include="Image\38946170-Makeup-brushes-and-crushed-eyeshadows-on-dark-background-Stock-Photo.jpg" />
+    <Content Include="Image\Boru8PW6.gif" />
+    <Content Include="Image\chpEJrOO.gif" />
+    <Content Include="Image\HWKxOLYQ.gif" />
     <Content Include="Image\seamless-floral-background-vector.jpg" />
     <Content Include="ThankYou.aspx" />
     <Content Include="Content\bootstrap.css" />
